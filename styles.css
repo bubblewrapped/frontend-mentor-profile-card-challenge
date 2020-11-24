@@ -1,0 +1,61 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 1rem;
+	background-color: hsl(185, 75%, 39%);
+	background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+	background-position: left -50% top 250%, right -50% bottom 400%;
+	background-repeat: no-repeat;
+	font-family: 'Kumbh Sans', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.card {
+	max-width: 350px;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	color: hsl(229, 23%, 23%);
+	background: #fff url('images/bg-pattern-card.svg') no-repeat;
+	border-radius: 0.5rem;
+	overflow: hidden;
+	margin-bottom: 1rem;
+	padding: 85px 0 0;
+}
+
+.avatar {
+	border: 5px solid #fff;
+	border-radius: 50%;
+}
+
+.avatar-city {
+	font-size: 16px;
+}
+
+.statistics {
+	display: flex;
+	justify-content: space-evenly;
+	border-top: 1px solid hsl(0, 0%, 59%);
+	padding: 2rem;
+}
+
+.statistics div {
+	padding: 0 20px;
+}
+
+.stats-title {
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+}
+
+.light-gray {
+	color: hsl(0, 0%, 59%);
+	font-weight: 400;
+}
